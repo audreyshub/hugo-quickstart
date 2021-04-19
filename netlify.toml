@@ -1,4 +1,7 @@
 [build]
-publish = "/opt/build/repo/public"
+publish = "public"
 command = "hugo --gc --minify"
 commandOrigin = "config"
+
+[context.production.environment]
+HUGO_VERSION = "0.81.0"
