@@ -1,3 +1,4 @@
 [build]
-publish = "public"
+publish = "/opt/build/repo/public"
 command = "hugo --gc --minify"
+commandOrigin = "config"
