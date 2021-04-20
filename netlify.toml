@@ -5,3 +5,9 @@ commandOrigin = "config"
 
 [context.production.environment]
 HUGO_VERSION = "0.81.0"
+
+[context.branch-deploy]
+PIZZA = "pineapple"
+
+[context.deploy-previews.environment]
+command = "hugo --gc --minify"
